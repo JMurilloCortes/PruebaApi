@@ -17,35 +17,3 @@ const ProgressBar = ({ totalFracttions, soldFracttions }) => {
 };
 
 export default ProgressBar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-
-// const ProgressBar = ({ totalFracttions, soldFracttions }) => {
-//   const percentage = (soldFracttions / totalFracttions) * 100;
-
-//   return (
-//     <div className="relative w-[409px] h-[16px] rounded-[17px] border-[1px] border-[#181F39]">
-//       <div
-//         className="absolute left-0 top-0 h-full bg-[#4459A5] rounded-[17px]"
-//         style={{ width: `${percentage}%` }}
-//       ></div>
-//       <div className="absolute inset-0 text-[10px] flex items-center justify-center text-[#FBFBFE]">
-//         {percentage.toFixed(2)}%
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ProgressBar;
